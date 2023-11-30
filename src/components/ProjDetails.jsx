@@ -5,9 +5,11 @@ const ProjDetails = ({ proj, currentItem }) => {
   return (
     <article className="proj-info">
       <h3>{name}</h3>
-      <a href={link} target="_blank">
-        Go to the site
-      </a>
+      <div className="link-box">
+        <a href={link} target="_blank" className="link">
+          Go to the site
+        </a>
+      </div>
       <div>
         {about.map((item, index) => {
           return (

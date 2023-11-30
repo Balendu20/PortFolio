@@ -265,6 +265,10 @@
   box-shadow: 0 2px #14b8a6;
 }
 
+.proj-info h3 {
+  padding: 10px;
+}
+
 .proj-info p {
   color: #334155;
   line-height: 1.5;
@@ -285,6 +289,17 @@
 .proj-desc p {
   color: #334155;
   line-height: 1;
+}
+.link {
+  text-decoration: none;
+  border: 1px solid #5cdb5c;
+  padding: 5px;
+}
+.link:hover {
+  text-decoration: none;
+  border: 1px solid #5cdb5c;
+  background-color: #5cdb5c;
+  padding: 5px;
 }
 
 @media screen and (min-width: 992px) {
@@ -355,5 +370,16 @@
 
   .proj-desc p {
     font-size: 12px;
+    font-weight: 600;
+  }
+  .proj-info h3 {
+    text-align: center;
+  }
+  .link-box {
+    display: flex;
+    justify-content: center;
+  }
+  .link {
+    text-decoration: none;
   }
 }
