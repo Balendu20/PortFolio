@@ -16,7 +16,7 @@ const HomePage = ({ home }) => {
             end developer eager to contribute.
           </h4>
           <button className="btn" onClick={handleDownload}>
-            Explore More
+            Explore CV
           </button>
         </container>
       </div>

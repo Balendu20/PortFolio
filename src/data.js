@@ -14,7 +14,7 @@ export const projectData = [
   {
     id: 2,
     name: "Foody zone",
-    link: "https://dice-game-react-rho.vercel.app/",
+    link: "https://food-menu-only.vercel.app/",
     about: [
       "Advanced Array Handling: Deepened my understanding of array manipulation in JavaScript.",
       "Map Functions: Leveraged map functions for seamless iteration through arrays and data rendering.",
@@ -24,7 +24,7 @@ export const projectData = [
   {
     id: 3,
     name: "Cart",
-    link: "https://dice-game-react-rho.vercel.app/",
+    link: "https://cart-only.vercel.app/",
     about: [
       "Global State Management: Implemented global state management using useReducer and createContext in React.",
       "Context API: Gained proficiency in utilizing the Context API for efficient state sharing between components.",
@@ -37,7 +37,7 @@ export const projectData = [
   {
     id: 4,
     name: "portfolio",
-    link: "https://dice-game-react-rho.vercel.app/",
+    link: "https://port-folio-rust.vercel.app/",
     about: [
       "Responsive Navigation with useRef: Implemented a responsive navigation bar that utilizes the useRef hook for smooth scrolling to different sections of the webpage, enhancing the overall user experience.",
       "Dynamic Project Showcase: useState to dynamically display and manage project details, showcasing a variety of projects with custom data. This not only adds a personalized touch but also demonstrates proficiency in state management.",
