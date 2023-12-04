@@ -384,7 +384,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .box-blue {
     visibility: visible;
     width: 270px;
