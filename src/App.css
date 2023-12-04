@@ -384,20 +384,22 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .box-blue {
     visibility: visible;
     width: 270px;
     height: 100px;
     position: absolute;
-    top: 245px;
-    right: 50px;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
   }
   .mypic {
     visibility: visible;
     position: absolute;
-    top: 50px;
-    right: 50px;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
     width: 270px;
     height: 290px;
   }
